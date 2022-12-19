@@ -1,8 +1,7 @@
 import React, { Component } from 'react'
 import { Fragment } from 'react'
 import { Col, Row, Button, Container } from "react-bootstrap"
-import "../../assets/css/custom.css"
-import "../../assets/css/bootstrap.min.css"
+
 
 class TopBanner extends Component {
   render() {
@@ -14,7 +13,7 @@ class TopBanner extends Component {
                 <Row>
                     <Col>
                         <h1>EASY LEARNING</h1>
-                        <h2>Learn Professionally</h2>
+                        <h5>Learn Professionally</h5>
                         <Button variant='primary'>Learn More</Button>
                     </Col>
                 </Row>

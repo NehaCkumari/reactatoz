@@ -4,8 +4,7 @@ import { Col, Container, Row } from 'react-bootstrap'
 import DesignIcon from "../../assets/images/design.png";
 import EcommerceIcon from "../../assets/images/ecommerce.png";
 import WebIcon from "../../assets/images/web.png";
-import "../../assets/css/custom.css"
-import "../../assets/css/bootstrap.min.css"
+
 
 
 class services extends Component {
