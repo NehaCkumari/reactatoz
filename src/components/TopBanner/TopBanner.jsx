@@ -1,13 +1,25 @@
 import React, { Component } from 'react'
 import { Fragment } from 'react'
-import { Container } from "react-bootstrap"
+import { Col, Row, Button, Container } from "react-bootstrap"
 import "../../assets/css/custom.css"
 
 class TopBanner extends Component {
   render() {
     return (
       <Fragment>
-        <Container className="topFixedBanner"></Container>
+        <Container fluid="true" className="topFixedBanner p-0" >
+        <div className="topBannerOverlay">
+            <Container className='topContent'>
+                <Row>
+                    <Col>
+                        <h1>EASY LEARNING</h1>
+                        <h2>Learn Professionally</h2>
+                        <Button variant='primary'>Learn More</Button>
+                    </Col>
+                </Row>
+            </Container>
+        </div>
+        </Container>
 
       </Fragment>
     )
