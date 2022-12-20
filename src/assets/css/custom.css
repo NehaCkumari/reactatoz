@@ -114,3 +114,53 @@
     font-weight: 700;
     font-size: 16px;
 }
+.summaryBanner{
+    background-image: url("../images/summary.jpg");
+    min-height: 400px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.summaryOverlay{
+    position: absolute;
+    min-height: 400px;
+    width: 100%;
+    background: rgba(27, 31, 92, 0.7);
+}
+.countNumber{
+    color: #ffffff;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+}
+.countTitle{
+    color: #ffd900;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+}
+.countSection{
+    margin-top: 25%;
+}
+.cardTitle{
+    color: #000000;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+}
+.cardSubTitle{
+    color: #000000;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+}
+.workCard{
+    margin-top: 25%;
+    padding: 10px 10px 10px 10px;
+    border-radius: 3px;
+}
+.iconProject{
+    color: #ffffff;
+    font-size: 40px;
+}
