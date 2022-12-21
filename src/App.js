@@ -9,7 +9,7 @@ import Cources from "./components/Cources/Cources";
 import Video from "./components/Video/Video";
 import ClientReview from "./components/ClietReview/ClientReview";
 import AboutMe from './components/AboutMe/AboutMe';
-
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -24,7 +24,7 @@ function App() {
       <Video />
       <ClientReview />
       <AboutMe />
-      <Services />
+      <Footer />
 
     </div>
   );
