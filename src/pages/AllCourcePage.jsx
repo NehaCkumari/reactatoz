@@ -6,6 +6,9 @@ import PageTop from '../components/PageTop/PageTop'
 
 
 class AllCorusePage extends Component {
+     componentDidMount(){
+          window.scroll(0,0)
+      }
      render() {
           return (
               <Fragment>

@@ -8,6 +8,9 @@ import Services from '../components/Services/services'
 
 
 class AllServicePage extends Component {
+     componentDidMount(){
+          window.scroll(0,0)
+      }
      render() {
           return (
              <Fragment>
