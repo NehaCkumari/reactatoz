@@ -6,6 +6,8 @@ import Analysis from "./components/Analysis/Analysis";
 import Summary from "./components/Summary/Summary";
 import RecentProject from "./components/RecentProject/RecentProject"
 import Cources from "./components/Cources/Cources";
+import Video from "./components/Video/Video";
+import ClientReview from "./components/ClietReview/ClientReview";
 
 
 
@@ -19,7 +21,9 @@ function App() {
       <Summary />
       <RecentProject />
       <Cources />
-
+      <Video />
+      <ClientReview />
+      <Services />
 
     </div>
   );
