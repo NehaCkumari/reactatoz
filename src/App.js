@@ -8,7 +8,7 @@ import RecentProject from "./components/RecentProject/RecentProject"
 import Cources from "./components/Cources/Cources";
 import Video from "./components/Video/Video";
 import ClientReview from "./components/ClietReview/ClientReview";
-
+import AboutMe from './components/AboutMe/AboutMe';
 
 
 function App() {
@@ -23,6 +23,7 @@ function App() {
       <Cources />
       <Video />
       <ClientReview />
+      <AboutMe />
       <Services />
 
     </div>
